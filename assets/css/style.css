@@ -67,7 +67,94 @@ header{
 
 
 /* join btn start */
-.join-btn{
+.join-section{
+    background-color:black;
+    padding-top:10px;
+    padding-bottom:30px;
+   
+}
+
+
+
+
+.div-center a{
+    text-decoration: none;
+}
+
+.div-center{
+    justify-content: center;
+    align-items: center;
+    display: block;
+    width:320px;
+    height:100%;
+    margin: auto;
+    /* padding-top:10px;
+    padding-bottom:20px; */
+   
+}
+.div-center{
+    justify-content: center;
+    align-items: center;
+    display: block;
+    width:320px;
+    height:100%;
+    margin: auto;
+    /* padding-top:10px;
+    padding-bottom:20px; */
+   
+}
+
+.div-center .join-btn-text{
+    font-size:34px;
+}
+/* join btn end */
+.container-img {
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image responsive */
+
+
+/* Style the button and place it in the middle of the container/image */
+.container-img .div-center-btn2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-45%, -125%);
+  -ms-transform: translate(-50%, -50%);
+  border: none;
+  cursor: pointer;
+}
+
+
+/* .div-center-btn2{
+    justify-content: center;
+    align-items: center;
+    display: block;
+    width:230px;
+    height:100%;
+    transform: translateY(-490px);
+    margin: auto;
+
+} */
+
+.gallery{
+    background-color: rgb(15, 14, 14);
+    padding: 80px 0;
+}
+img{
+    max-width:100%;
+   
+}
+section{
+    border:0px;
+}
+
+
+
+
+/* .join-btn{
     display: inline-flex;
     height: 70px;
     padding: 0;
@@ -82,9 +169,8 @@ header{
    border:none;
    box-shadow: rgba(0, 0, 0, 0.5);
    cursor: pointer;
-}
 
-.join-btn:hover{
+   .join-btn:hover{
     background: #e70808;
 }
 .join-btn:active{
@@ -100,28 +186,4 @@ header{
     font-size: 1.5em;
     background-color: rgba(0, 0, 0, 0.08);
 }
-
-.div-center a{
-    text-decoration: none;
-}
-
-.div-center{
-    justify-content: center;
-    align-items: center;
-    display: block;
-    width:320px;
-    height:100%;
-    margin: auto;
-}
-.div-center .join-btn-text{
-    font-size:34px;
-}
-/* join btn end */
-
-.gallery{
-    background-color: rgb(15, 14, 14);
-    padding: 80px 0;
-}
-img{
-    max-width:100%;
-}
+} */
