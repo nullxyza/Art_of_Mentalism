@@ -6,13 +6,42 @@
 header{
     background-color: black;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .nav-link{
     color: rgb(231, 231, 231);
 }
 .nav-link:hover{
     color: rgb(234, 10, 10);
 }
+
+
+@media screen and (max-width:600px){
+    .container-title-icons{
+        position:absolute;
+        top:10%;
+        left:70%;
+        display:block;
+        height: auto;
+        width:80%;
+    
+    }
+}
+
+@media screen and (min-width:600px){
+    .container-title-icons{
+        position:absolute;
+        top:35%;
+        left:70%;
+        display:block;
+        height: auto;
+        width:80%;
+    
+    }
+}
+
+
 /* Video-tailer */
 .video-box{
     position: relative;
@@ -29,40 +58,25 @@ header{
     padding-left:15px;
     padding-right:15px;
 }
-@media screen and (max-width:600px){
-    .container-text{
-        justify-content: center;
-        align-items: center;
-        display: block;
-        width:320px;
-        height:100%;
-        margin: auto;
-    }
-    .container-text .text-item{
-        font-size:16px;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-    
+
+/* Video review */
+.video-box2{
+    position: relative;
+    overflow: hidden;
+  
 }
-@media screen and (min-width:600px){
-    .container-text{
-        justify-content: center;
-        align-items: center;
-        display: block;
-        width:100%px;
-        height:100%;
-        margin: auto;
-    }
-    .container-text .text-item{
-        font-size:50px;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-    
+
+.video-box2 iframe{
+    width:89%;
+    height:75%;
+    position:absolute;
+    top:15%;
+    left:5.5%;
+    padding-left:5px;
+    padding-right:5px;
 }
+
+
 
 
 
@@ -112,7 +126,10 @@ header{
   position: relative;
   width: 100%;
 }
-
+.container-img2 {
+    position: relative;
+    width: 100%;
+  }
 /* Make the image responsive */
 
 
@@ -125,6 +142,15 @@ header{
   -ms-transform: translate(-50%, -50%);
   border: none;
   cursor: pointer;
+}
+.container-img2 .div-center-btn3 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-95%, -125%);
+    -ms-transform: translate(-50%, -50%);
+    border: none;
+    cursor:pointer;
 }
 
 
@@ -151,9 +177,129 @@ section{
     border:0px;
 }
 
+.video-box3 ,.video-box4 , .video-box5,.video-box6{
+    position: relative;
+    overflow: hidden;
+  
+}
+/* Image row */
+.video-box-container{
+    position: relative;
+    top:0;
+    left:0;
+}
+.bgimage{
+    position: relative;
+    top: 0;
+    left:0;
+}
+.video-box3 {
+    width:85%;
+    height:20%;
+    position:absolute;
+    top:5%;
+    left:7.5%;
+    padding-left:5px;
+    padding-right:5px;
+  
+}
+.video-box4 {
+    width:85%;
+    height:20%;
+    position:absolute;
+    top:29.5%;
+    left:7.5%;
+    padding-left:5px;
+    padding-right:5px;
+  
+}
+.video-box5{
+    width:85%;
+    height:20%;
+    position:absolute;
+    top:53.5%;
+    left:7.5%;
+    padding-left:5px;
+    padding-right:5px;
+  
+}
+.video-box6 {
+    width:85%;
+    height:20%;
+    position:absolute;
+    top:78%;
+    left:7.5%;
+    padding-left:5px;
+    padding-right:5px;
+  
+}
+.footer-class{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    display:block;
+    
+}
 
+.container-icons{
+    position:absolute;
+    top:20%;
+    left:33%;
+    display:block;
+    height: auto;
+    width:100%;
 
+}
 
+.scrltop-btn{
+position:fixed;
+width:50px;
+height:50px;
+bottom:40px;
+right:100px;
+background-color: rgb(23, 23, 23);
+
+text-decoration:none;
+text-align:center;
+line-height:50px;
+color: white;
+font-size: 25px;
+}
+
+/* @media screen and (max-width:600px){
+    .container-text{
+        justify-content: center;
+        align-items: center;
+        display: block;
+        width:320px;
+        height:100%;
+        margin: auto;
+    }
+    .container-text .text-item{
+        font-size:16px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+}
+@media screen and (min-width:600px){
+    .container-text{
+        justify-content: center;
+        align-items: center;
+        display: block;
+        width:100%px;
+        height:100%;
+        margin: auto;
+    }
+    .container-text .text-item{
+        font-size:50px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+} */
 /* .join-btn{
     display: inline-flex;
     height: 70px;
