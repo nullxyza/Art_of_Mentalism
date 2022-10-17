@@ -13,10 +13,7 @@ html, body {
 header{
     background-color: black;
 }
-html{
-    scroll-behavior: smooth;
 
-}
 .nav-link{
     color: rgb(231, 231, 231);
 }
