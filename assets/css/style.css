@@ -3,11 +3,19 @@
     padding-top:0px;
   
 }
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    background-color: black;
+    position: relative
+  }
 header{
     background-color: black;
 }
 html{
     scroll-behavior: smooth;
+
 }
 .nav-link{
     color: rgb(231, 231, 231);
@@ -17,10 +25,11 @@ html{
 }
 
 
+
 @media screen and (max-width:600px){
     .container-title-icons{
         position:absolute;
-        top:10%;
+        top:0.53%;
         left:70%;
         display:block;
         height: auto;
@@ -171,6 +180,7 @@ html{
 }
 img{
     max-width:100%;
+    overflow-x: hidden;
    
 }
 section{
@@ -256,7 +266,7 @@ position:fixed;
 width:50px;
 height:50px;
 bottom:40px;
-right:100px;
+right:30px;
 background-color: rgb(23, 23, 23);
 
 text-decoration:none;
