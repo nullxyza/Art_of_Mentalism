@@ -10,6 +10,9 @@ html, body {
     background-color: black;
     position: relative
   }
+  html{
+    scroll-behavior: smooth;
+  }
 header{
     background-color: black;
 }
@@ -160,17 +163,6 @@ header{
 }
 
 
-/* .div-center-btn2{
-    justify-content: center;
-    align-items: center;
-    display: block;
-    width:230px;
-    height:100%;
-    transform: translateY(-490px);
-    margin: auto;
-
-} */
-
 .gallery{
     background-color: rgb(15, 14, 14);
     padding: 80px 0;
@@ -272,71 +264,3 @@ line-height:50px;
 color: white;
 font-size: 25px;
 }
-
-/* @media screen and (max-width:600px){
-    .container-text{
-        justify-content: center;
-        align-items: center;
-        display: block;
-        width:320px;
-        height:100%;
-        margin: auto;
-    }
-    .container-text .text-item{
-        font-size:16px;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-    
-}
-@media screen and (min-width:600px){
-    .container-text{
-        justify-content: center;
-        align-items: center;
-        display: block;
-        width:100%px;
-        height:100%;
-        margin: auto;
-    }
-    .container-text .text-item{
-        font-size:50px;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-    
-} */
-/* .join-btn{
-    display: inline-flex;
-    height: 70px;
-    padding: 0;
-    color:white;
-   background: #c80b0b;
-   outline: none;
-   overflow:hidden;
-   border-radius:5px;
-   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   font-size:35px;
-   font-weight: 500;
-   border:none;
-   box-shadow: rgba(0, 0, 0, 0.5);
-   cursor: pointer;
-
-   .join-btn:hover{
-    background: #e70808;
-}
-.join-btn:active{
-    background:#f51212
-}
-.join-btn-text, .join-btn-icon{
-    height:100%;
-    display:inline-flex;
-    align-items: center;
-    padding:0 24px;
-}
-.join-btn-icon{
-    font-size: 1.5em;
-    background-color: rgba(0, 0, 0, 0.08);
-}
-} */
