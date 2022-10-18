@@ -16,12 +16,38 @@ html, body {
 header{
     background-color: black;
 }
-
+/* progress indicator */
+.top-progress-holder{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+.progress-container {
+    width: 100%;
+    height: 3px;
+    background: rgb(45, 45, 45);
+  }
+  .progress-bar {
+    height: 3px;
+    background: #FFD700;
+    width: 0%;
+  }
+  /* divider ends here */
+/* divider golden */
+.divider-class{
+    width: 100%;
+    height:1px;
+    background-color:#FFD700;
+}
+/* divider stops here */
 .nav-link{
     color: rgb(231, 231, 231);
+    text-transform: uppercase;
 }
 .nav-link:hover{
-    color: rgb(234, 10, 10);
+    color: #FFD700;
 }
 
 
@@ -152,6 +178,7 @@ header{
   border: none;
   cursor: pointer;
 }
+
 .container-img2 .div-center-btn3 {
     position: absolute;
     top: 90%;
@@ -252,7 +279,7 @@ section{
 
 .scrltop-btn{
 position:fixed;
-width:50px;
+width:35px;
 height:50px;
 bottom:40px;
 right:30px;
@@ -263,4 +290,10 @@ text-align:center;
 line-height:50px;
 color: white;
 font-size: 25px;
+}
+
+.scrltop-btn:hover{
+    color:#FFD700;
+    border: 1px solid ;
+    border-color:#FFD700;
 }
