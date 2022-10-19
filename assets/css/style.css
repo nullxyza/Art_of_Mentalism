@@ -38,8 +38,7 @@ header{
 /* divider golden */
 .divider-class{
     width: 100%;
-    height:1px;
-    background-color:#FFD700;
+    height:100%;
 }
 /* divider stops here */
 .nav-link{
