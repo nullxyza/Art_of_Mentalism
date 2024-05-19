@@ -132,7 +132,7 @@ header{
 
 .newvideo-pos {
   position: absolute;
-  top: 16%;
+  top: 16.2%;
   left: 6%;
   width: 100%;
   height: 100%;
@@ -148,7 +148,41 @@ header{
 .banner-image1 {
   position: relative;
 }
+/* crash course btn */
+.div-course-btnone,
+.div-course-btntwo,
+.div-course-btnthree {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.div-course-btnone {
+    bottom: 72.5%;
+    width: 75%;
+    height: auto;
+}
+
+.div-course-btntwo {
+    bottom: 61.5%;
+    width: 75%;
+    height: auto;
+}
+
+.div-course-btnthree {
+    bottom: 53%;
+    width: 75%;
+    height: auto;
+}
+
+
+
+/* join vacation batch */
 .div-center-btnone,
 .div-center-btntwo,
 .div-center-btnthree {

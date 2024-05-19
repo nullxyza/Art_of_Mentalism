@@ -1,0 +1,26 @@
+.banner-image1 {
+    height: 100vh;
+    /* Set the height of the banner image to the full height of the viewport */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    /* Make sure the image covers the full area of the banner */
+}
+
+.banner-image1 img {
+    margin-top:20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0px;
+}
